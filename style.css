@@ -1,0 +1,21 @@
+body{
+    background-color: darkgrey;
+    line-height: 10px;
+}
+.titulo{
+    line-height: 80px;
+    background-color: grey;
+    font-size: 80px;
+    text-align: center;
+    border: 5px solid black;
+    margin-bottom: 30px;
+}
+.luces{
+    font-size: 40px;
+}
+.definicion{
+    font-size: 25px;
+}
+.btn{
+    font-size: 25px;
+}
