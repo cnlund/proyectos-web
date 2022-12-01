@@ -1,2 +1,40 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="spokedex.css">
+    </head>
+    <body>
+            <div class="encabezado">
+                <h1 class="titulo">Pokedex</h1>
+            </div>
+            <div class="buscador">
+                <label class="textob">Inserte el Nombre o ID (Completo) del pokemon:</label>
+                <input id="buscadorb" class="buscadorb" type="text" name="busqueda" value="">
+                <input id="enviarb" class="enviarb" type="submit">
+            </div>
+            <div class="pokedatos">
+                <div class="plantilla">
+                    <div class="cabeza">
+                        <p class="numid"></p>
+                        <p class="nombre"></p>
+                    </div>
+                    <div class="pokeimg">
+                        <div class="fimg">
+                            <img class="frontpoke" src="missingno.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="nopoke">
+                    <p class="missingt">Pokemon no encontrado</p>
+                    <img class="missing" src="missingno.jpg">
+                </div>
+            </div>
+            <div class="randomp">
+                <button id="pokerandom">Clickea aqui para ver una entrada al azar</button>
+            </div>
+            <h1 class="creador">creado por Cnlund</h1>
+        <div class="retorno">
+            <button id="retornar">Volver a la lista de Proyectos</button>
+        </div>
+        <script src="cpokedex.js" charset="utf-8"></script>
+    </body>
 </html>

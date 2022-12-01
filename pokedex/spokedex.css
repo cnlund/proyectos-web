@@ -1,0 +1,83 @@
+body{
+    background-image: url("cabecera pokedex.jpg");
+    background-size: 100%;
+}
+.titulo{
+    text-align: center;
+    font-size: 10vh;
+    margin-bottom: 5vh;
+}
+.textob{
+    font-size: 4vh;
+    background-color: #FFCC02;
+}
+.buscadorb{
+    font-size: 4vh;
+    background-color: #181B1D;
+    color: white;
+    width: 25vw;
+}
+.enviarb{
+    font-size: 4vh;
+    background-color: #01FBFB;
+}
+input:hover, #submit:hover, button:active, #submit:active{
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button:hover, #submit:hover, button:active, #submit:active{
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.randomp button{
+    font-size: 4vh;
+    background-color: #01FBFB;
+    margin-top: 2vh;
+}
+.plantilla{
+    display: none;
+    padding: 2vh;
+    background-image: url("marco pokedex.jpg");
+    background-size: auto;
+    width: 70%;
+}
+.nopoke{
+    display: none;
+    padding: 2vh;
+    background-image: url("marco pokedex.jpg");
+    background-size: auto;
+    width: 70%;
+}
+.missingt{
+    font-size: 5vh;
+}
+.missing{
+    height: 200px;
+    width: 200px;
+}
+.cabeza{
+    height: 100;
+    width: 50;
+}
+.numid{
+    font-size: 5vh;
+    color: black;
+    padding: 1vh;
+}
+.nombre{
+    font-size: 5vh;
+    padding: 1vh;
+}
+.frontpoke{
+    height: 300px;
+    width: 300px;
+    margin-top: 50;
+}
+.creador{
+    font-size: 5vh;
+}
+.retorno button{
+    font-size: 3vh;
+}

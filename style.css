@@ -3,15 +3,16 @@ body{
     line-height: 1vh;
 }
 .titulo{
-    line-height: 80px;
+    line-height: 10vh;
     background-color: grey;
-    font-size: 80px;
+    font-size: 10vh;
     text-align: center;
     border: 5px solid black;
     margin-bottom: 30px;
 }
-.luces{
-    font-size: 40px;
+.proyecto{
+    margin-left: 5vh;
+    font-size: 5vh;
     line-height: 1vh;
 }
 .definicion{
