@@ -3,22 +3,35 @@ body{
     line-height: 1vh;
 }
 .titulo{
-    line-height: 10vh;
+    display: flex;
+    line-height: 60px;
+    flex-wrap: wrap;
     background-color: grey;
-    font-size: 10vh;
+    font-size: 50px;
     text-align: center;
+    justify-content: center;
     border: 5px solid black;
     margin-bottom: 30px;
 }
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
 .proyecto{
-    margin-left: 5vh;
-    font-size: 5vh;
-    line-height: 1vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    font-size: 50px;
+    line-height: 5px;
 }
 .definicion{
-    font-size: 5vh;
-    line-height: 5vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    line-break: 40px;
+    line-height: 50px;
 }
 .btn{
-    font: size 5vh;
+    font-size: 50px;
 }
