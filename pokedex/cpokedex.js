@@ -5,9 +5,10 @@ const regresar = document.getElementById("retornar")
 
 const resultado = function(){
     var nompoke = document.getElementById("buscadorb").value
+    const pokename = nompoke.toLowerCase() 
     const fetchpokemon = async() =>{
         try{
-            const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${nompoke}`)
+            const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokename}`)
             const data = await res.json()
             pokedata(data)
         }catch(error){
